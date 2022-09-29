@@ -50,7 +50,7 @@ nav{
 body {
   margin: 0;
   height: 100vh;
-  background: #191919;
+  background: #686868;
   font-family:'Poppins', sans-serif;
 }
 
@@ -59,28 +59,28 @@ body {
   box-sizing: border-box;
 }*/
 
-.container {
+.nav-container {
   padding: 2em;
   height: 100vh;
 }
 
-.container:first-child {
+.nav-container:first-child {
   display: grid;
   grid-template-rows: 10% 30% auto;
 }
 
-.container h1 {
+.nav-container h1 {
   text-align: center;
   margin-top: 2em;
   font-weight: normal;
   font-size: 3em;
   line-height: 0.9em;
 }
-.container p {
+.nav-container p {
   line-height: 1.5em;
   color: rgb(194, 194, 194);
 }
-.container .line {
+.nav-container .line {
   align-self: end;
   width: 50%;
   border-right: 1px solid white;
@@ -88,7 +88,7 @@ body {
   margin-bottom: 4em;
   position: relative;
 }
-.container .line::after {
+.nav-container .line::after {
   content: " ";
   position: absolute;
   width: 0;
@@ -130,6 +130,24 @@ h2 {
 
 .tree {
   top: 23%;
+}
+
+.game p {
+  display: flex;
+  justify-content: center;
+  padding: 30px 30px;
+  color: white;
+  font-size: 2rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  font-size: 3rem;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 @media screen and (max-width:1024px) {
@@ -191,6 +209,8 @@ h2 {
   .tree {
     top: 25%;
   }
+/* product filter */
+
 
 
 }/*# sourceMappingURL=main.css.map */
