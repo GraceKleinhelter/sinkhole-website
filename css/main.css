@@ -76,7 +76,7 @@ body {
   font-size: 3em;
   line-height: 0.9em;
 }
-/*
+
 .nav-container p {
   line-height: 1.5em;
   color: rgb(194, 194, 194);
@@ -100,7 +100,10 @@ body {
   right: -0.7em;
   bottom: -2px;
 }
-*/
+h1 {
+  color: white;
+  font-size: 4rem;
+}
 
 h2 {
   color: white;
@@ -143,6 +146,11 @@ p {
   padding: 30px 30px;
   color: white;
   font-size: 2rem;
+  text-align: center;
+}
+.game .game-instructions {
+  font-size: 1.2rem;
+  color: rgb(221, 221, 221);
 }
 
 footer {

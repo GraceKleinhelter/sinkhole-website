@@ -1,9 +1,11 @@
 .coming-soon {
-    min-height: 100vh;
+    padding: 25px 25px;
+    min-height: 75vw;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
 }
 .countdown {
     color: white;
@@ -17,5 +19,7 @@
 }
 
 .waiting {
-    height: 50vh;
+    position: absolute;
+    height: 40vh;
+    position: sticky;
 }

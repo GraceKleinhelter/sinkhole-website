@@ -44,7 +44,7 @@
 
 
 
-        <h1 class="lax" data-lax-translate-y="0 0, 400 -400">Ciders & Meads</h1>
+        <h1>Ciders & Meads</h1>
 
         <div class="arrowline"></div>
 
@@ -55,7 +55,9 @@
     <img src="images/parallax-tree.png" alt="tree" class="tree">
 
     <div class="container secondary">
+
         <h2>About Us</h2>
+
         <p class="subtext">Ciders and Meads</p>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, necessitatibus. Dolorem a consequuntur quas, accusamus similique nesciunt deserunt corporis aliquam voluptatum dolores est voluptates error voluptatibus sunt dolorum necessitatibus modi.</p>
@@ -185,11 +187,12 @@
                 </div>
             </div> 
         </div>
-        <img class="waiting">
+        <img class="fermenter" src="images/mead-fermenter.png" alt="fermenter">
     </section>
 
     <div class="game">
         <p>Have you seen any Salamanders down here?</p>
+        <p class="game-instructions">Drag and drop the salamanders to identify them!</p>
     </div>
 
     <secition class="draggable-elements">
@@ -217,26 +220,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
 
-    <script>
-          window.onload = function () {
-    lax.init()
-
-    // Add a driver that we use to control our animations
-    lax.addDriver('scrollY', function () {
-      return window.scrollY
-    })
-
-    // Add animation bindings to elements
-    lax.addElements('.selector', {
-      scrollY: {
-        translateX: [
-          ["elInY", "elCenterY", "elOutY"],
-          [0, 'screenWidth/2', 'screenWidth'],
-        ]
-      }
-    })
-  }
-    </script>
 
 </body>
 </html>
