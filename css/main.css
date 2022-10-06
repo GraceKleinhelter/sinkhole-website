@@ -4,12 +4,12 @@
   box-sizing: border-box;
 }
 
-nav{
+nav {
+  position: absolute;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 8vh;
-  background-color: #5d4954;
+  padding: 3rem 10rem;
+  justify-content: space-between;
 }
 
 .logo {
@@ -76,6 +76,7 @@ body {
   font-size: 3em;
   line-height: 0.9em;
 }
+/*
 .nav-container p {
   line-height: 1.5em;
   color: rgb(194, 194, 194);
@@ -99,7 +100,7 @@ body {
   right: -0.7em;
   bottom: -2px;
 }
-
+*/
 
 h2 {
   color: white;
@@ -109,9 +110,13 @@ h2 {
 }
 
 .subtext {
+  color: white;
   margin-top: 0;
   font-size: 1.4em;
   text-transform: uppercase;
+}
+p {
+  color: white;
 }
 
 .secondary {
@@ -129,7 +134,7 @@ h2 {
 }
 
 .tree {
-  top: 23%;
+  top: 0;
 }
 
 .game p {
@@ -186,31 +191,3 @@ footer {
   transform: translateX(0%);
 }
 
-@media only screen and (min-width: 665px) {
-  .hills {
-    top: 0%;
-  }
-  .tree {
-    top: 23%;
-  }
-}
-@media only screen and (min-width: 930px) {
-  .hills {
-    top: 0%;
-  }
-  .tree {
-    top: 23%;
-  }
-}
-@media only screen and (min-width: 1050px) {
-  .hills {
-    top: 0%;
-  }
-  .tree {
-    top: 25%;
-  }
-/* product filter */
-
-
-
-}/*# sourceMappingURL=main.css.map */

@@ -44,15 +44,15 @@
 
 
 
-        <h1 class="">Ciders & Meads</h1>
+        <h1 class="lax" data-lax-translate-y="0 0, 400 -400">Ciders & Meads</h1>
 
-        <div class="line"></div>
+        <div class="arrowline"></div>
 
         
     </div>
 
-    <img src="images/sinkhole-parallax-base.jpg" alt="hills" class="hills">
-    <img src="images/sinkhole-parallax-top.png" alt="tree" class="tree">
+    <img src="images/parallax-background.png" alt="hills" class="hills">
+    <img src="images/parallax-tree.png" alt="tree" class="tree">
 
     <div class="container secondary">
         <h2>About Us</h2>
@@ -214,6 +214,29 @@
     <script src="js/product-filter.js"></script>
 
     <script src="js/app.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
+
+    <script>
+          window.onload = function () {
+    lax.init()
+
+    // Add a driver that we use to control our animations
+    lax.addDriver('scrollY', function () {
+      return window.scrollY
+    })
+
+    // Add animation bindings to elements
+    lax.addElements('.selector', {
+      scrollY: {
+        translateX: [
+          ["elInY", "elCenterY", "elOutY"],
+          [0, 'screenWidth/2', 'screenWidth'],
+        ]
+      }
+    })
+  }
+    </script>
 
 </body>
 </html>
