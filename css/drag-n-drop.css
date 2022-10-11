@@ -1,22 +1,16 @@
 .draggable-elements {
-/*
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
-   justify-content: space-between;
-   gap: 1.5rem;
+   grid-template-columns: repeat(2, 1fr);
+   grid-auto-rows: min-content;
+   gap: 1.2rem;
    margin: 2rem;
-   */
-   
-    display: flex;
-    justify-content: center;
-    margin: 2rem;
+   justify-content: space-around;
 }
 .draggable {
     height: 6rem;
     width: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: space-around;
     font-size: 1.5rem;
     margin: 0rem 0.5rem;
     cursor: grab;
@@ -25,14 +19,17 @@
 draggable:hover {
     opacity: 0.5;
 }
+.droppable-elements{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-auto-rows: min-content;
+}
 .droppable {
     height: 6.5rem;
     width: 6.5rem;
     margin: 1rem auto;
-    display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    flex-direction: column;
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;

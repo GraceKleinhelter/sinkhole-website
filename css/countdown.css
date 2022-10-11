@@ -18,8 +18,6 @@
     color: white;
 }
 
-.waiting {
-    position: absolute;
-    height: 40vh;
-    position: sticky;
+.waiting img{
+  
 }
