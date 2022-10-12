@@ -11,11 +11,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,600;0,800;1,200;1,300;1,600;1,800&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">  
-<link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="css/main.scss">
-<link rel="stylesheet" href="css/section-nav.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.scss">
+    <link rel="stylesheet" href="css/section-nav.css">
     <link rel="stylesheet" href="css/drag-n-drop.css">
     <link rel="stylesheet" href="css/countdown.css">
+    <link rel="stylesheet" href="css/parallax.css">
+
 </head>
 <body>
     <div class="navbutton-container">
@@ -27,7 +29,7 @@
         </div>
     </div>
     <nav>
-        <h1><a class="nav-links--home" href="/">Sinkhole Ciders & Meads</a></h1>
+        <h1><a class="nav-links--home" href="/">Sinkhole<br>Ciders & Meads</a></h1>
         <ul class="nav-link-container">
             <li><a href="#home" data-section="home" class="nav-links">Home</a></li>
             <li><a href="#about" data-section="about" class="nav-links">About</a></li>
@@ -36,10 +38,35 @@
         </ul>
     </nav>
    <main>
- <section id="home">
-            <div class="section__content">
-                <h2 class="section__content-description">Sinkhole Ciders & Meads</h2>
-            </div>
+        <section id="home" class="parallax section__content">
+                
+            <img src="images/sinkhole-bg-parallax copy.png" id="hills">
+                <img src="images/green_salamander.png" id="salamander">
+                <h2 id="text" class="section__content-description">Sinkhole Ciders & Meads</h2>
+                <a href="#sec" id="btn">Explore</a>
+                <img src="images/sinkhole-tree copy.png" id="tree">
+            
+        </section>
+        <div class="sec" id="sec">
+            <h2>Parallax Scroll Effect</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit illo officia magni! Vitae ipsum itaque
+                distinctio rem corporis officiis necessitatibus quasi tempora ex quos non amet eveniet, minus debitis
+                enim!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit illo officia magni! Vitae ipsum itaque
+                distinctio rem corporis officiis necessitatibus quasi tempora ex quos non amet eveniet, minus debitis
+                enim!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit illo officia magni! Vitae ipsum itaque
+                distinctio rem corporis officiis necessitatibus quasi tempora ex quos non amet eveniet, minus debitis
+                enim!<br><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit illo officia magni! Vitae ipsum itaque
+                distinctio rem corporis officiis necessitatibus quasi tempora ex quos non amet eveniet, minus debitis
+                enim!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit illo officia magni! Vitae ipsum itaque
+                distinctio rem corporis officiis necessitatibus quasi tempora ex quos non amet eveniet, minus debitis
+                enim!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit illo officia magni! Vitae ipsum itaque
+                distinctio rem corporis officiis necessitatibus quasi tempora ex quos non amet eveniet, minus debitis
+                enim!<br><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit illo officia magni! Vitae ipsum itaque
+                distinctio rem corporis officiis necessitatibus quasi tempora ex quos non amet eveniet, minus debitis
+                enim!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit illo officia magni! Vitae ipsum itaque
+                distinctio rem corporis officiis necessitatibus quasi tempora ex quos non amet eveniet, minus debitis
+                enim!Lorem</p>
+        </div>
         </section>
         <section id="about">
             <div class="section__content">
@@ -115,6 +142,8 @@
 </main> 
 
     <footer id="contact">This is a footer</footer>
+
+    <script src="/js/parallax.js"></script>
 
     <script src="js/section-nav.js"></script>
 
