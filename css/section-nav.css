@@ -1,6 +1,6 @@
 body {
   min-height: 100vh;
-  background: url("/images/sinkhole-texture\ copy.png");
+  background: url('/images/sinkhole-texture.png');
   background-repeat: repeat-y;
   background-size: cover;
   max-width: 100%;
