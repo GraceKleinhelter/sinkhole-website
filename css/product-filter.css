@@ -16,7 +16,12 @@ html {
 }
 
 body {
-    background-image: url("/images/sinkhole-texture\ copy.png");
+    min-height: 100vh;
+    background: url('/images/sinkhole-texture.png');
+    background-repeat: repeat-y;
+    background-size: cover;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .container {
@@ -85,11 +90,13 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 2rem;
+    padding-bottom: 1rem;
 }
 
 .container .filter-items .filter-item {
     text-align: center;
     padding: 3rem 2rem;
+    justify-content: space-around;
     background: #fff;
     box-shadow: 0 .5rem .1rem rgba(0,0,0,.1);
     outline: .1rem solid #ccc;
