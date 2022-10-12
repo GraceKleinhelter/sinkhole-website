@@ -1,3 +1,11 @@
+body {
+  min-height: 100vh;
+  background: url("/images/sinkhole-texture\ copy.png");
+  background-repeat: repeat-y;
+  background-size: cover;
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 body,
 html {
@@ -94,6 +102,7 @@ section {
   place-items: center;
   position: relative;
 }
+/*
 section .section__bg {
   position: fixed;
   z-index: -1;
@@ -106,6 +115,7 @@ section .section__bg {
   object-fit: cover;
   text-align: center;
 }
+*/
 section .section__content {
   text-align: center;
 }
