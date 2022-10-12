@@ -95,7 +95,7 @@ section {
   position: relative;
 }
 section .section__bg {
-  position: absolute;
+  position: fixed;
   z-index: -1;
   top: 0;
   left: 0;
@@ -112,20 +112,4 @@ section .section__content {
 section .section__content-description {
   font-size: 4rem;
   color: #e39dff;
-}
-section .section__content-btn {
-  text-decoration: none;
-  font-size: 2rem;
-  display: inline-block;
-  margin: 2rem auto;
-  padding: 1rem 2rem;
-  transform: scale(1);
-  transition: all 250ms ease-in-out;
-  background-color: rgba(227, 157, 255, 0.3);
-}
-section .section__content-btn:link, section .section__content-btn:visited {
-  color: #e39dff;
-}
-section .section__content-btn:hover, section .section__content-btn:active, section .section__content-btn:focus {
-  transform: scale(1.02);
 }

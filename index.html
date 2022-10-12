@@ -14,7 +14,6 @@
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/main.scss">
 <link rel="stylesheet" href="css/section-nav.css">
-    <link rel="stylesheet" href="css/product-filter.css">
     <link rel="stylesheet" href="css/drag-n-drop.css">
     <link rel="stylesheet" href="css/countdown.css">
 </head>
@@ -39,19 +38,17 @@
     <img src="images/parallax-background.png" alt="hills" class="hills">
     <img src="images/parallax-tree.png" alt="tree" class="tree">
    <main>
- <section id="blue">
+ <section id="home">
             <img class="section__bg" src="./images/sinkhole-texture copy.png" alt="Blue-spotted salamander">
             <div class="section__content">
                 <h2 class="section__content-description">Sinkhole Ciders & Meads</h2>
-                <a class="section__content-btn" href="#">Learn More</a>
             </div>
         </section>
         <section id="about">
             <img class="section__bg" src="./images/sinkhole-texture copy.png" alt="Green salamander">
             <div class="section__content">
                 <h2 class="section__content-description">About Us</h2>
-                <a class="section__content-btn" href="#">Learn More</a>
-                <div class="container secondary">
+                <div class="container">
             
                     <p class="subtext">Ciders and Meads</p>
             
@@ -65,96 +62,7 @@
             <img class="section__bg" src="./images/sinkhole-texture copy.png" alt="Marbled salamander">
             <div class="section__content">
                 <h2 id="products" class="section__content-description">Our Wares</h2>
-                <div class = "wrapper">
-                    <div class="category-filter">
-                        <div class="container">
-                            <div class="title">
-                            </div>
-                            <div class="filter-btns">
-                                <button type="button" class="filter-btn" id="all">all</button>
-                                <button type="button" class="filter-btn" id="sweet">sweet</button>
-                                <button type="button" class="filter-btn" id="semi-sweet">semi-sweet</button>
-                                <button type="button" class="filter-btn" id="dry">dry</button>
-                                <button type="button" class="filter-btn" id="extra-dry">extra dry</button>
-                                <button type="button" class="filter-btn" id="brut">brut</button>
-                            </div>
             
-                            <div class="filter-items">
-                                <div class="filter-item all extra-dry dry">
-                                    <div class="item-img">
-                                        <img src="images/black-cherry-mead.png" alt="black cherry mead">
-                                        
-                                    </div>
-                                    <div class="item-info">
-                                        <p>Black Cherry Mead</p>
-                                        <div class="price">$12.00</div>
-                                    </div>
-                                    <a href="#" class="add-btn">Add to Cart</a>
-                                </div>
-            
-                                <div class="filter-item all brut dry">
-                                    <div class="item-img">
-                                        <img src="images/ginger-anise-mead.png" alt="ginger anise mead">
-                                    </div>
-                                    <div class="item-info">
-                                        <p>Ginger Anise Mead</p>
-                                        <div class="price">$12.00</div>
-                                    </div>
-                                    <a href="#" class="add-btn">Add to Cart</a>
-                                </div>
-            
-                                <div class="filter-item all sweet">
-                                    <div class="item-img">
-                                        <img src="images/honey-crisp-mead.png" alt="honey crisp mead">
-                                        
-                                    </div>
-                                    <div class="item-info">
-                                        <p>Honey Crisp</p>
-                                        <div class="price">$12.00</div>
-                                    </div>
-                                    <a href="#" class="add-btn">Add to Cart</a>
-                                </div>
-            
-                                <div class="filter-item all semi-sweet sweet">
-                                    <div class="item-img">
-                                        <img src="images/mulberry-mead.png" alt="mulberry mead">
-                                        
-                                    </div>
-                                    <div class="item-info">
-                                        <p>Mulberry</p>
-                                        <div class="price">$12.00</div>
-                                    </div>
-                                    <a href="#" class="add-btn">Add to Cart</a>
-                                </div>
-            
-                                <div class="filter-item all dry">
-                                    <div class="item-img">
-                                        <img src="images/orange-blossom-mead.png" alt="orange blossom mead">
-                                        
-                                    </div>
-                                    <div class="item-info">
-                                        <p>Orange Blossom Mead</p>
-                                        <div class="price">$12.00</div>
-                                    </div>
-                                    <a href="#" class="add-btn">Add to Cart</a>
-                                </div>
-            
-                                <div class="filter-item all semi-sweet sweet">
-                                    <div class="item-img">
-                                        <img src="images/pawpaw-mead.png" alt="pawpaw mead">
-                                        
-                                    </div>
-                                    <div class="item-info">
-                                        <p>Pawpaw Mead</p>
-                                        <div class="price">$12.00</div>
-                                    </div>
-                                    <a href="#" class="add-btn">Add to Cart</a>
-                                </div>
-            
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
         <section id="game">
@@ -188,7 +96,7 @@
         <div>
             <h2>New Mead fermenting now!</h2>
             <div class="countdown">
-                
+                <img class="fermenter" src="/images/mead-fermenter.png">
                 <div class="container-day">
                     <h3 class="day">Time</h3>
                     <h3>Day</h3>
@@ -206,7 +114,7 @@
                     <h3>Second</h3>
                 </div>
             </div> 
-            <img class="fermenter" src="images/mead-fermenter.png" alt="fermenter">
+            
         </div>
         
     </section>
@@ -214,6 +122,8 @@
 </main> 
 
     <footer id="contact">This is a footer</footer>
+
+    <script src="js/section-nav.js"></script>
 
     <script src="js/countdown.js"></script>
 

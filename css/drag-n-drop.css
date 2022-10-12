@@ -7,7 +7,7 @@
    justify-content: space-around;
 }
 .draggable {
-    height: 6rem;
+    height: 9rem;
     width: auto;
     align-items: start;
     justify-content: space-around;
@@ -25,13 +25,13 @@ draggable:hover {
    grid-auto-rows: min-content;
 }
 .droppable {
-    height: 6.5rem;
-    width: 6.5rem;
+    height: 9rem;
+    width: 9rem;
     margin: 1rem auto;
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: bold;
     background-color: #fff;
     border: 3px dashed #111;

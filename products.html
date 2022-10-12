@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,600;0,800;1,200;1,300;1,600;1,800&family=Nunito:wght@300;400;600;700&display=swap"
+        rel="stylesheet" >
+    <title>Product Layout</title>
+    <link rel="stylesheet" href="css/product-filter.css">
+    <script src="js/product-filter.js" defer></script>
+</head>
+
+<body>
+
+    <div class = "wrapper">
+        <div class="category-filter">
+            <div class="container">
+                <div class="title">
+                    <h1>Meads</h1>
+                </div>
+
+                <div class="filter-btns">
+                    <button type="button" class="filter-btn" id="all">all</button>
+                    <button type="button" class="filter-btn" id="sweet">sweet</button>
+                    <button type="button" class="filter-btn" id="semi-sweet">semi-sweet</button>
+                    <button type="button" class="filter-btn" id="dry">dry</button>
+                    <button type="button" class="filter-btn" id="extra-dry">extra dry</button>
+                    <button type="button" class="filter-btn" id="brut">brut</button>
+                </div>
+
+                    <div class="filter-items">
+            
+                        <div class="filter-item all extra-dry dry" data-name="p-1">
+                            <img src="images/black-cherry-mead.png" alt="">
+                            <h3>Black Cherry</h3>
+                            <div class="price">$11.00</div>
+                        </div>
+            
+                        <div class="filter-item all brut dry" data-name="p-2">
+                            <img src="images/ginger-anise-mead.png" alt="">
+                            <h3>Ginger Anise</h3>
+                            <div class="price">$12.00</div>
+                        </div>
+            
+                        <div class="filter-item all sweet" data-name="p-3">
+                            <img src="images/honey-crisp-mead.png" alt="">
+                            <h3>Honey Crisp</h3>
+                            <div class="price">$10.00</div>
+                        </div>
+            
+                        <div class="filter-item all semi-sweet sweet" data-name="p-4">
+                            <img src="images/mulberry-mead.png" alt="">
+                            <h3>Mulberry</h3>
+                            <div class="price">$10.00</div>
+                        </div>
+            
+                        <div class="filter-item all dry" data-name="p-5">
+                            <img src="images/orange-blossom-mead.png" alt="">
+                            <h3>Orange Blossom</h3>
+                            <div class="price">$9.00</div>
+                        </div>
+            
+                        <div class="filter-item all semi-sweet sweet" data-name="p-6">
+                            <img src="images/pawpaw-mead.png" alt="">
+                            <h3>Pawpaw</h3>
+                            <div class="price">$12.00</div>
+                        </div>
+            
+                    </div>
+            </div>
+        </div>
+    </div>
+
+   
+</body>
+
+</html>
