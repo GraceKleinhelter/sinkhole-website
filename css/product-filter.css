@@ -34,8 +34,14 @@ body {
     margin-top: 40px;
 }
 .title {
-    margin-bottom: 40px;
+    margin-bottom: 70px;
 }
+.title .logo img{
+    height: 150px;
+    padding: 1.5rem 1rem;
+    position: relative;
+}
+
 .title h1 {
     color: #27ae60;
     text-align: center;
