@@ -2,43 +2,45 @@
    display: grid;
    grid-template-columns: repeat(2, 1fr);
    grid-auto-rows: min-content;
-   gap: 1.2rem;
-   margin: 2rem;
-   justify-content: space-around;
+   justify-content: space-evenly;
 }
 .draggable {
-    height: 9rem;
-    width: auto;
-    align-items: start;
-    justify-content: space-around;
-    font-size: 1.5rem;
-    margin: 0rem 0.5rem;
-    cursor: grab;
-    transition: opacity 0.2s;
+   height: 5rem;
+   width: 5rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 4rem;
+   margin: 1rem auto;
+   cursor: move;
+   transition: opacity 0.2s;
 }
 draggable:hover {
     opacity: 0.5;
 }
 .droppable-elements{
    display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   grid-auto-rows: min-content;
+   grid-template-columns: repeat(1, 1fr);
+   grid-auto-rows: max-content;
+   justify-content: space-evenly;
 }
 .droppable {
-    height: 9rem;
-    width: 9rem;
-    margin: 1rem auto;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    font-size: 3rem;
-    font-weight: bold;
-    background-color: #fff;
-    border: 3px dashed #111;
-    transition: border-width 0.2s, transform 0.2s, background-color 0.4s;
+   height: 6.5rem;
+   width: 6.5rem;
+   margin: 1rem auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+   font-size: 4rem;
+   font-weight: bold;
+   background-color: #fff;
+   border: 3px dashed #111;
+   transition: border-width 0.2s, transform 0.2s, background-color 0.4s;
 }
 .droppable span {
-    font-size: .75rem;
+    font-size: 1rem;
     pointer-events: none;
 }
  /* Drag and Drop Related Styling */
