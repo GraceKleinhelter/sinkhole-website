@@ -86,3 +86,11 @@ draggable:hover {
     html {font-size: 14px;}
     .draggable-elements { margin: 1.5rem;}
  }
+
+ @media  screen and (max-width:768px) {
+   .droppable-elements{
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: max-content;
+      justify-content: space-evenly;
+   }
+ } 

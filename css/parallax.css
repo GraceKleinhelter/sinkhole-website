@@ -35,10 +35,6 @@
     object-fit: cover;
     z-index: 1;
 }
-.parallax img#salamander {
-    height: 500px;
-    object-fit: scale-down;
-}
 .parallax img#tree {
     z-index: 9;
     max-width: 100%;
@@ -85,3 +81,6 @@
     font-size: 1rem;
     color: #fff;
 }
+
+@media screen and (min-width:1025px)
+

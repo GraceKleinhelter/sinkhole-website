@@ -53,3 +53,4 @@ function drop(event) {
         event.target.insertAdjacentHTML("afterbegin", `<i class="fas fa-${draggableElementData}"></i>`);
     }
 }
+
